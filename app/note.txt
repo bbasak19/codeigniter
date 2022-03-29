@@ -25,3 +25,6 @@ mobile varchar(45) DEFAULT NULL,
 profile_image varchar(150) DEFAULT NULL,
 PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
+php spark make:model Student --suffix
+php spark make:controller Student --suffix
