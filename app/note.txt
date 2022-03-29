@@ -14,3 +14,14 @@ php spark make:filter Noauth
 php spark make:validation Userrules
 php spark make:controller User
 php spark make:controller Dashboard
+
+
+
+CREATE TABLE students (
+id int(11) NOT NULL AUTO_INCREMENT,
+name varchar(120) DEFAULT NULL,
+email varchar(120) DEFAULT NULL,
+mobile varchar(45) DEFAULT NULL,
+profile_image varchar(150) DEFAULT NULL,
+PRIMARY KEY (id)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
