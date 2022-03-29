@@ -12,3 +12,5 @@ php spark make:model User --suffix
 php spark make:filter Auth
 php spark make:filter Noauth
 php spark make:validation Userrules
+php spark make:controller User
+php spark make:controller Dashboard
